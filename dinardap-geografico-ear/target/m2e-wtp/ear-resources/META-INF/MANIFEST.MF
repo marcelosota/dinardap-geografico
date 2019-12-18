@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: marcelo
+Class-Path: dinardap-geografico-ejb-1.0-SNAPSHOT.jar commons-io-2.6.ja
+ r dinardap-util-1.0-SNAPSHOT.jar slf4j-api-1.7.25.jar commons-lang3-3
+ .8.1.jar spring-core-5.1.4.RELEASE.jar spring-jcl-5.1.4.RELEASE.jar s
+ pring-beans-5.1.4.RELEASE.jar spring-orm-5.1.4.RELEASE.jar spring-jdb
+ c-5.1.4.RELEASE.jar spring-tx-5.1.4.RELEASE.jar org.springframework.t
+ ransaction-3.1.0.M1.jar dinardap-seguridad-ejb-1.0-SNAPSHOT.jar
+Build-Jdk: 1.8.0_131
+Created-By: Maven Integration for Eclipse
+
