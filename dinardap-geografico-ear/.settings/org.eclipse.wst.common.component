@@ -41,7 +41,7 @@
         <dependent-module archiveName="org.springframework.transaction-3.1.0.M1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/org.springframework.transaction/3.1.0.M1/org.springframework.transaction-3.1.0.M1.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="dinardap-seguridad-ejb-1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/dinardap-seguridad-ejb/dinardap-seguridad-ejb">
+        <dependent-module archiveName="dinardap-seguridad-ejb-1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/ec/gob/dinardap/seguridad/dinardap-seguridad-ejb/1.0-SNAPSHOT/dinardap-seguridad-ejb-1.0-SNAPSHOT.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>
