@@ -10,13 +10,13 @@ import java.util.List;
  * 
  */
 @Entity
-@Table(name="zona", schema="ec_dinardap_geografico")
+@Table(name="zona", schema = "ec_dinardap_geografico")
 @NamedQuery(name="Zona.findAll", query="SELECT z FROM Zona z")
 public class Zona implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@SequenceGenerator(name="ZONA_ZONAID_GENERATOR", sequenceName="ZONA_ZONA_ID_SEQ", schema="ec_dinardap_geografico", allocationSize = 1)
+	@SequenceGenerator(name="ZONA_ZONAID_GENERATOR", sequenceName="ZONA_ZONA_ID_SEQ", schema = "ec_dinardap_geografico", allocationSize = 1)
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="ZONA_ZONAID_GENERATOR")
 	@Column(name="zona_id")
 	private Integer zonaId;

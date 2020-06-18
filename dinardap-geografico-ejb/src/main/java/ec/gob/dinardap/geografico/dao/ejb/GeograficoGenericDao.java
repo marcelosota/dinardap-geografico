@@ -15,7 +15,7 @@ public class GeograficoGenericDao<T, PK extends Serializable> extends GenericEmD
 		super(type);
 	}
 
-	@PersistenceContext(unitName = "geograficoPU")
+	@PersistenceContext(unitName = "geografico-pu")
 	protected EntityManager em;
 
 	/*

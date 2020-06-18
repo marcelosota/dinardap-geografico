@@ -9,13 +9,13 @@ import javax.persistence.*;
  * 
  */
 @Entity
-@Table(name="parroquia", schema="ec_dinardap_geografico")
+@Table(name="parroquia", schema = "ec_dinardap_geografico")
 @NamedQuery(name="Parroquia.findAll", query="SELECT p FROM Parroquia p")
 public class Parroquia implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@SequenceGenerator(name="PARROQUIA_PARROQUIAID_GENERATOR", sequenceName="PARROQUIA_PARROQUIA_ID_SEQ", schema="ec_dinardap_geografico", allocationSize = 1)
+	@SequenceGenerator(name="PARROQUIA_PARROQUIAID_GENERATOR", sequenceName="PARROQUIA_PARROQUIA_ID_SEQ", schema = "ec_dinardap_geografico", allocationSize = 1)
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="PARROQUIA_PARROQUIAID_GENERATOR")
 	@Column(name="parroquia_id")
 	private Integer parroquiaId;
